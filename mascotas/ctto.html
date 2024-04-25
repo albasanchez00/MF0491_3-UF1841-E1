@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <meta name="autho" content="Alba Sánchez Olmedo" />
+    <meta name="keywords" content="HTML,CSS,Listas,Formularios,Examen" />
+    <link rel="stylesheet" href="css-web.css">
+    <!-- Favicon, icono de la pestaña del navegador -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+
+<body id="ctto">
+    <section>
+        <img src="img/cabecera-pagina.png" alt="logo superman">
+    </section>
+    <section id="bloque_menus">
+        <nav id="nav">
+            <ul id="menus">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="qsomos.html">Quienes somos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="ctto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section>
+        <h2>Contactenos</h2>
+        <div id="bloque_contacto">
+            <p><b>+COTAS Toledo:</b> Ronda de Toledo, 30. Telf: 999 999 999</p>
+            <p><b>+COTAS Ciudad Real:</b> Ronda de Calatraba, 51. Telf: 999 999 555</p>
+            <p><b>+COTAS Cuenca:</b> Calle Molinos, 25. Telf: 999 999 555</p>
+        </div>
+    </section>
+    <section>
+        <h2>Formulario de Contacto</h2>
+        <div id="bloque_contacto">
+            <form id="formulario">
+                <p>
+                    <label for="nombre_Apellido">Nombre y Apellido:<sup>*</sup></label>
+                    <input type="text" placeholder="Tu nombre" required minlength="3" maxlength="20" pattern="[a-Z]">
+                </p>
+                <br>
+                <p>
+                    <label for="email">Tu email:</label>
+                    <br>
+                    <input id="tu_email" type="text" placeholder="tunombre@dominio.com" required minlength="3" maxlength="50"
+                        pattern="[a-Z]">
+                </p>
+                <br>
+                <p id="botones">
+                    <input type="submit" value="Enviar datos">
+                    <input type="reset" value="Limpiar">
+                </p>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
